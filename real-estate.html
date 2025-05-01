@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Management</title>
+  <meta name="description" content="This is a real estate by Eloji Dominic">
+  <link rel="shortcut icon" href="./images/Real estate (3).jpg" type="image/jpg+svg">
+  <link rel="stylesheet" href="./real-estate.css">
+  <!-- google fonts 400 600 700-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  
+<!-- Header -->
+<header data-aos="zoom-in" class="header" data-header>
+  <div class="container">
+    <a href="#" class="logo">
+      <img src="./images/white-home.png" width="50"  height="30" alt="estate-house">
+      <span>WealthHome</span>
+    </a>
+    <nav class="navbar" data-navbar>
+      <ul class="navbar-list">
+        <li>
+          <a href="#" class="navbar-link label-medium active">Home</a>
+        </li>
+        <li>
+          <a href="#" class="navbar-link label-medium">Rent</a>
+        </li>
+        <li>
+          <a href="#" class="navbar-link label-medium">Sale</a>
+        </li>
+        <li>
+          <a href="#" class="navbar-link label-medium">Buy</a>
+        </li>
+        <li>
+          <a href="#" class="navbar-link label-medium">About</a>
+        </li>
+      </ul>
+
+      <div class="navbar-wrapper">
+        <a href="#" class="btn-link label-medium">Login</a>
+        <a href="#" class="btn btn-fill label-medium">Get Started</a>
+      </div>
+    </nav>
+
+    <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+      <ion-icon name="menu-outline" class="open"></ion-icon>
+      <ion-icon name="close-outline" class="close"></ion-icon>
+    </button>
+  </div>
+</header>
+
+<!-- Main -->
+<main>
+  <article>
+    <section class="hero bg-pattern js-bg-pattern">
+      <div class="container">
+        <div data-aos="fade-down" class="hero-content">
+          <h1 class="headline-large hero-title">
+            Find a place where you can be yourself.
+          </h1>
+          <p class="body-large hero-text">
+            If you are looking far a place where you can be yourself, don't give up. Keep searching until you find a place that feels like home
+          </p>
+          <form action="./" method="get" class="search-bar">
+            <label class="search-item">
+              <span class="label-medium label">Want to</span>
+              <select name="want-to" class="search-item-field body-medium">
+                <option value="buy" selected>Buy</option>
+                <option value="sell">Sell</option>
+                <option value="rent">Rent</option>
+              </select>
+              <i class='bx bx-laptop material-symbols'></i>
+            </label>
+    
+            <label class="search-item">
+              <span class="label-medium label">Property type</span>
+              <select name="want-to" class="search-item-field body-medium">
+                <option value="buy" selected>Buy</option>
+                <option value="any">Any</option>
+                <option value="houses">Houses</option>
+                <option value="apartments">Apartments</option>
+                <option value="value">Villa</option>
+                <option value="townhome">Town home</option>
+                <option value="Bungalow">Bungalow</option>
+                <option value="left">Left</option>
+              </select>
+              <i class='bx bx-envelope material-symbols'></i>
+            </label>
+    
+            <label class="search-item">
+              <span class="label-medium label">Location</span>
+              <input type="text" name="location" placeholder="Street,City, zip..." class="search-item-field body-medium">
+              <i class='bx bx-location-plus material-symbols'></i>
+            </label>
+    
+            <button type="submit" class="search-btn">
+              <i class='bx bx-search-alt-2 material-symbols'></i>
+              <span class="label-medium">Search</span>
+            </button>
+  
+          </form>
+  
+        </div>
+
+        <!-- <div class="hero-banner bg-pattern"></div> -->
+
+      </div>
+    </section>
+
+    <!-- Property section -->
+    <section class="section property" aria-labelledby="property-label">
+      <div class="container">
+        <div data-aos="zoom-in" class="title-wrapper">
+          <div>
+            <h2 class="section-title headline-small">Best home in your city</h2>
+          
+            <p class="section-text body-large">
+              A home that illuminates the true beauty of your surroundings giving you and your family an exciting lodge that improves your taste of belonging to an important social development building. 
+            </p>
+          </div>
+
+          <a href="#" class="btn btn-outline">
+            <span class="label-medium">Explore More</span>
+            <i class='bx bx-right-top-arrow-circle bx-burst' style='color:#ffffff'></i>
+          </a>
+        </div>
+
+        <div class="property-list">
+          <div class="card">
+            <div data-aos="zoom-in" class="card-banner">
+              <figure class="img-holder" style="--width: 585; --height: 390;">
+                <img src="./images/Real estate (1).jpg" width="500" height="300" alt="COVA Home Reality" class="img-cover">
+              </figure>
+              <span class="badge label-medium">New</span>
+              <button class="icon-btn fav-btn" aria-label="add to favorite">
+                <img class="heart-blinker" src="./images/red-outline-heart.png" alt="heart-blinker">
+              </button>
+            </div>
+
+            <div class="card-content">
+              <span data-aos="fade-down" class="title-large">$710.68</span>
+
+              <h3 data-aos="fade-down">
+                <a href="#" class="title-small card-title">COVA Home Reality</a>
+              </h3>
+
+              <address data-aos="fade-down" class="body-medium card-text">
+                1901 ThornRidge Cir. Shiloh, Hawaii 81063
+              </address>
+
+              <div data-aos="flip-down" class="card-meta-list">
+                <div class="meta-item">
+                  <i class='bx bx-bed bx-fade-up' ></i>
+                  <span class="meta-text label-medium">3 Bed</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-bath bx-fade-up'></i>
+                  <span class="meta-text label-medium">2 Bath</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-chair bx-fade-up'></i>
+                  <span class="meta-text label-medium">1430 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div data-aos="zoom-in" class="card-banner">
+              <figure class="img-holder" style="--width: 585; --height: 390;">
+                <img src="./images/Real estate (2).jpg" width="500" height="300" alt="COVA Home Reality" class="img-cover">
+              </figure>
+              <button class="icon-btn fav-btn" aria-label="add to favorite">
+                <img class="heart-blinker" src="./images/red-outline-heart.png" alt="heart-blinker">
+              </button>
+            </div>
+
+            <div class="card-content">
+              <span data-aos="fade-down" class="title-large">$472.45</span>
+
+              <h3 data-aos="fade-down">
+                <a href="#" class="title-small card-title">Exit Reality</a>
+              </h3>
+
+              <address data-aos="fade-down" class="body-medium card-text">
+                2972 Westheimer Rd. Santa Ana, Illinois 85486
+              </address>
+
+              <div data-aos="flip-down" class="card-meta-list">
+                <div class="meta-item">
+                  <i class='bx bx-bed bx-fade-up' ></i>
+                  <span class="meta-text label-medium">5 Bed</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-bath bx-fade-up'></i>
+                  <span class="meta-text label-medium">4 Bath</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-chair bx-fade-up'></i>
+                  <span class="meta-text label-medium">1630 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div data-aos="zoom-in" class="card-banner">
+              <figure class="img-holder" style="--width: 585; --height: 390;">
+                <img src="./images/Real estate (3).jpg" width="500" height="300" alt="COVA Home Reality" class="img-cover">
+              </figure>
+              <button class="icon-btn fav-btn" aria-label="add to favorite">
+                <img class="heart-blinker" src="./images/red-outline-heart.png" alt="heart-blinker">
+              </button>
+            </div>
+
+            <div data-aos="fade-down" class="card-content">
+              <span class="title-large">$475.85</span>
+
+              <h3 data-aos="fade-down">
+                <a href="#" class="title-small card-title">Real Estate Group</a>
+              </h3>
+
+              <address data-aos="fade-down" class="body-medium card-text">
+                2118 ThornRidge Cir. Syracuse, Conneticut 35624
+              </address>
+
+              <div data-aos="flip-down" class="card-meta-list">
+                <div class="meta-item">
+                  <i class='bx bx-bed bx-fade-up' ></i>
+                  <span class="meta-text label-medium">8 Bed</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-bath bx-fade-up'></i>
+                  <span class="meta-text label-medium">5 Bath</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-chair bx-fade-up'></i>
+                  <span class="meta-text label-medium">1240 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div data-aos="zoom-in" class="card-banner">
+              <figure class="img-holder" style="--width: 585; --height: 390;">
+                <img src="./images/Real estate (4).jpg" width="500" height="300" alt="COVA Home Reality" class="img-cover">
+              </figure>
+              <button class="icon-btn fav-btn" aria-label="add to favorite">
+                <img class="heart-blinker" src="./images/red-outline-heart.png" alt="heart-blinker">
+              </button>
+            </div>
+
+            <div class="card-content">
+              <span data-aos="fade-down" class="title-large">$576.28</span>
+
+              <h3 data-aos="fade-down">
+                <a href="#" class="title-small card-title">757 Reality</a>
+              </h3>
+
+              <address data-aos="fade-down" class="body-medium card-text">
+                4140 Parker Rd. Allentown, New Mexico 31134
+              </address>
+
+              <div data-aos="flip-down" class="card-meta-list">
+                <div class="meta-item">
+                  <i class='bx bx-bed bx-fade-up' ></i>
+                  <span class="meta-text label-medium">6 Bed</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-bath bx-fade-up'></i>
+                  <span class="meta-text label-medium">6 Bath</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-chair bx-fade-up'></i>
+                  <span class="meta-text label-medium">1260 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div data-aos="zoom-in" class="card-banner">
+              <figure class="img-holder" style="--width: 585; --height: 390;">
+                <img src="./images/Real estate (5).jpg" width="500" height="300" alt="Beach Press Reality" class="img-cover">
+              </figure>
+              <button class="icon-btn fav-btn" aria-label="add to favorite">
+                <img class="heart-blinker" src="./images/red-outline-heart.png" alt="heart-blinker">
+              </button>
+            </div>
+
+            <div class="card-content">
+              <span data-aos="fade-down" class="title-large">$473.28</span>
+
+              <h3 data-aos="fade-down">
+                <a href="#" class="title-small card-title">Beach Press Reality Inc.</a>
+              </h3>
+
+              <address data-aos="fade-down" class="body-medium card-text">
+                2715 Ash Dr. San Jose, South Dakota 83475
+              </address>
+
+              <div data-aos="flip-down" class="card-meta-list">
+                <div class="meta-item">
+                  <i class='bx bx-bed bx-fade-up' ></i>
+                  <span class="meta-text label-medium">10 Bed</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-bath bx-fade-up'></i>
+                  <span class="meta-text label-medium">8 Bath</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-chair bx-fade-up'></i>
+                  <span class="meta-text label-medium">2350 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div data-aos="zoom-in" class="card-banner">
+              <figure class="img-holder" style="--width: 585; --height: 390;">
+                <img src="./images/Real estate (6).jpg" width="500" height="300" alt="Keller Williams Elite Town Center" class="img-cover">
+              </figure>
+              <button class="icon-btn fav-btn" aria-label="add to favorite">
+                <img class="heart-blinker" src="./images/red-outline-heart.png" alt="heart-blinker">
+              </button>
+            </div>
+
+            <div class="card-content">
+              <span data-aos="fade-down" class="title-large">$105.55</span>
+
+              <h3 data-aos="fade-down">
+                <a href="#" class="title-small card-title">Keller Williams Elite Town Center</a>
+              </h3>
+
+              <address data-aos="fade-down" class="body-medium card-text">
+                3517 W. Gray St. Utica, Pennsylvania 57867
+              </address>
+
+              <div data-aos="flip-down" class="card-meta-list">
+                <div class="meta-item">
+                  <i class='bx bx-bed bx-fade-up' ></i>
+                  <span class="meta-text label-medium">8 Bed</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-bath bx-fade-up'></i>
+                  <span class="meta-text label-medium">8 Bath</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-chair bx-fade-up'></i>
+                  <span class="meta-text label-medium">1950 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div data-aos="zoom-in" class="card-banner">
+              <figure class="img-holder" style="--width: 585; --height: 390;">
+                <img src="./images/Real estate (7).jpg" width="500" height="300" alt="All Pros Real Estate" class="img-cover">
+              </figure>
+              <button class="icon-btn fav-btn" aria-label="add to favorite">
+                <img class="heart-blinker" src="./images/red-outline-heart.png" alt="heart-blinker">
+              </button>
+            </div>
+
+            <div class="card-content">
+              <span data-aos="fade-down" class="title-large">$739.65</span>
+
+              <h3 data-aos="fade-down">
+                <a href="#" class="title-small card-title">All Pros Real Estate</a>
+              </h3>
+
+              <address data-aos="fade-down" class="body-medium card-text">
+                8502 Preston Rd. Inglewood, Maine 98380
+              </address>
+
+              <div data-aos="flip-down" class="card-meta-list">
+                <div class="meta-item">
+                  <i class='bx bx-bed bx-fade-up' ></i>
+                  <span class="meta-text label-medium">4 Bed</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-bath bx-fade-up'></i>
+                  <span class="meta-text label-medium">4 Bath</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-chair bx-fade-up'></i>
+                  <span class="meta-text label-medium">1580 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div data-aos="zoom-in" class="card-banner">
+              <figure class="img-holder" style="--width: 585; --height: 390;">
+                <img src="./images/Real estate (8).jpg" width="500" height="300" alt="FIT Reality" class="img-cover">
+              </figure>
+              <button class="icon-btn fav-btn" aria-label="add to favorite">
+                <img class="heart-blinker" src="./images/red-outline-heart.png" alt="heart-blinker">
+              </button>
+            </div>
+
+            <div class="card-content">
+              <span data-aos="fade-down" class="title-large">$948.55</span>
+
+              <h3 data-aos="fade-down">
+                <a href="#" class="title-small card-title">FIT Reality</a>
+              </h3>
+
+              <address data-aos="fade-down" class="body-medium card-text">
+                4517 Washington Ave. Manchester, Kentucky 39495
+              </address>
+
+              <div data-aos="flip-down" class="card-meta-list">
+                <div class="meta-item">
+                  <i class='bx bx-bed bx-fade-up'></i>
+                  <span class="meta-text label-medium">3 Bed</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-bath bx-fade-up'></i>
+                  <span class="meta-text label-medium">2 Bath</span>
+                </div>
+                <div class="meta-item">
+                  <i class='bx bx-chair bx-fade-up'></i>
+                  <span class="meta-text label-medium">1120 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section feature" aria-labelledby="feature-label">
+      <div class="container">
+        <figure data-aos="zoom-in" class="feature-banner">
+          <img src="./images/Business work.jpg" alt="feature banner" width="1020" height="690" loading="lazy" class="img-cover" alt="feature banner">
+        </figure>
+
+        <div class="feature-content">
+          <h2 data-aos="fade-down" class="headline-medium" id="feature-label">
+            We Specialize in Quality Home Renovations
+          </h2>
+
+          <p data-aos="fade-down" class="body-large feature-text">
+            Looking to renovate your home to reflect your style and personality? Look no further than our teams of experts who specialize in quality home renovations to transform your space into a dream home you will love. From design to execution.
+          </p>
+  
+          <ul class="feature-list">
+            <li data-aos="zoom-in" class="feature-item">
+              <i class='bx bx-check-circle'></i>
+              <span class="body-medium">Smart Home</span>
+            </li>
+            <li data-aos="zoom-in" class="feature-item">
+              <i class='bx bx-check-circle'></i>
+              <span class="body-medium">Beautiful Scene Around</span>
+            </li>
+            <li data-aos="zoom-in" class="feature-item">
+              <i class='bx bx-check-circle'></i>
+              <span class="body-medium">Exceptional Lifestyle</span>
+            </li>
+            <li data-aos="zoom-in" class="feature-item">
+              <i class='bx bx-check-circle'></i>
+              <span class="body-medium">Complete 24/7 Security</span>
+            </li>
+          </ul>
+        </div>        
+      </div>
+    </section>
+
+    <section class="section feature feature-2" aria-labelledby="feature-label-2">
+      <div class="container">
+        <figure data-aos="zoom-in" class="feature-banner">
+          <img src="./images/business work (2).jpg" alt="feature banner" width="1020" height="690" loading="lazy" class="img-cover" alt="feature banner">
+        </figure>
+
+        <div class="feature-content">
+          <h2 data-aos="fade-down" class="headline-medium" id="feature-label-2">
+            We are experts in Historic Home Renovations
+          </h2>
+
+          <p data-aos="fade-down" class="body-large feature-text">
+            Looking to renovate your home to reflect your style and personality? Look no further than our teams of experts who specialize in quality home renovations to transform your space into a dream home you will love. From design to execution.
+          </p>
+  
+          <ul class="feature-list">
+            <li data-aos="zoom-in" class="feature-item">
+              <i class='bx bx-check-circle'></i>
+              <span class="body-medium">Smart Home</span>
+            </li>
+            <li data-aos="zoom-in" class="feature-item">
+              <i class='bx bx-check-circle'></i>
+              <span class="body-medium">Beautiful Scene Around</span>
+            </li>
+            <li data-aos="zoom-in" class="feature-item">
+              <i class='bx bx-check-circle'></i>
+              <span class="body-medium">Exceptional Lifestyle</span>
+            </li>
+            <li data-aos="zoom-in" class="feature-item">
+              <i class='bx bx-check-circle'></i>
+              <span class="body-medium">Complete 24/7 Security</span>
+            </li>
+          </ul>
+        </div>        
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section class="section video">
+      <div class="container">
+        <div data-aos="fade-down" class="video-card">
+          <button class="play-btn">
+            <i class='bx bx-play'></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section data-aos="zoom-in" class="section story">
+      <div class="container">
+        <div class="title-wrapper">
+          <div>
+            <p class="section-subtitle title-medium">Our Customers</p>
+            <h2 class="section-title headline-medium">We help 1000+ Family find their true home</h2>
+            <ul class="avatar-list">
+              <li data-aos="zoom-in" class="avatar">
+                <img src="./images/Family life (1).jpg" width="120" height="80" loading="lazy" alt="John Smith" class="img-cover">
+              </li>
+              <li data-aos="zoom-in" class="avatar">
+                <img src="./images/Family life (2).jpg" width="120" height="80" loading="lazy" alt="Jane Smith" class="img-cover">
+              </li>
+              <li data-aos="zoom-in" class="avatar">
+                <img src="./images/Family life (3).jpg" width="120" height="80" loading="lazy" alt="John Smith" class="img-cover">
+              </li>
+              <li data-aos="zoom-in" class="avatar">
+                <img src="./images/Family life (4).jpg" width="120" height="80" loading="lazy" alt="John Smith" class="img-cover">
+
+                <div class="overlay-content">
+                  <span class="label-medium">99+</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <a data-aos="zoom-in" href="#" class="btn btn-outline">
+            <span class="label-medium">View All Stories</span>
+            <i class='bx bx-right-top-arrow-circle bx-burst' style='color:#ffffff'></i>
+          </a>
+        </div>
+
+        <ul class="story-list">
+          <li data-aos="fade-right" class="story-card" style="background-image: url('./images/business\ work\ \(6\).jpg');">
+            <a href="#" class="overlay-content">
+              <div>
+                <h3 class="title-small">Chris Traeger</h3>
+
+                <div class="rating-wrapper">
+                  <box-icon name='star' type='solid' color='#e4e412'></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <data value="5" class="title-small rating-text">5.0</data>
+                </div>
+              </div>
+
+              <figure class="card-avatar">
+                <img src="./images/ben.jpg" alt="Chris Traeger" loading="lazy" class="img-cover">
+              </figure>
+            </a>
+          </li>
+
+          <li data-aos="fade-down" class="story-card" style="background-image: url('./images/business\ work\ \(1\).jpg');">
+            <a href="#" class="overlay-content">
+              <div>
+                <h3 class="title-small">Duke Silver</h3>
+
+                <div class="rating-wrapper">
+                  <box-icon name='star' type='solid' color='#e4e412'></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+
+                  <data value="5" class="title-small rating-text">5.0</data>
+                </div>
+              </div>
+
+              <figure class="card-avatar">
+                <img src="./images/customer-2.jpg" alt="Chris Traeger" width="56" height="56" loading="lazy" class="img-cover">
+              </figure>
+            </a>
+          </li>
+
+          <li data-aos="fade-left" class="story-card" style="background-image: url('./images/Family\ life\ \(5\).jpg');">
+            <a href="#" class="overlay-content">
+              <div>
+                <h3 class="title-small">Tsukasa Aoi</h3>
+
+                <div class="rating-wrapper">
+                  <box-icon name='star' type='solid' color='#e4e412'></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+
+                  <data value="5" class="title-small rating-text">5.0</data>
+                </div>
+              </div>
+
+              <figure class="card-avatar">
+                <img src="./images/customer-4.jpg" alt="Tsukasa Aoi" width="56" height="56" loading="lazy" class="img-cover">
+              </figure>
+            </a>
+          </li>
+
+          <li data-aos="fade-right" class="story-card" style="background-image: url('./images/business\ work\ \(3\).jpg');">
+            <a href="#" class="overlay-content">
+              <div>
+                <h3 class="title-small">Freida Vernes</h3>
+
+                <div class="rating-wrapper">
+                  <box-icon name='star' type='solid' color='#e4e412'></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+
+                  <data value="5" class="title-small rating-text">5.0</data>
+                </div>
+              </div>
+
+              <figure class="card-avatar">
+                <img src="./images/customer-5.jpg" alt="Freida Vernes" width="56" height="56" loading="lazy" class="img-cover">
+              </figure>
+            </a>
+          </li>
+
+          <li data-aos="fade-down" class="story-card" style="background-image: url('./images/business\ work\ \(4\).jpg');">
+            <a href="#" class="overlay-content">
+              <div>
+                <h3 class="title-small">Cart Lothner</h3>
+
+                <div class="rating-wrapper">
+                  <box-icon name='star' type='solid' color='#e4e412'></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+
+                  <data value="5" class="title-small rating-text">5.0</data>
+                </div>
+              </div>
+
+              <figure class="card-avatar">
+                <img src="./images/customer-6.jpg" alt="Cart Lothner" width="56" height="56" loading="lazy" class="img-cover">
+              </figure>
+            </a>
+          </li>
+
+          <li data-aos="fade-left" class="story-card" style="background-image: url('./images/business\ work\ \(5\).jpg');">
+            <a href="#" class="overlay-content">
+              <div>
+                <h3 class="title-small">Marci Santar</h3>
+
+                <div class="rating-wrapper">
+                  <box-icon name='star' type='solid' color='#e4e412'></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+                  <box-icon name='star' type='solid' color='#e4e412' ></box-icon>
+
+                  <data value="5" class="title-small rating-text">5.0</data>
+                </div>
+              </div>
+
+              <figure class="card-avatar">
+                <img src="./images/dave.jpg" alt="Marci Santar" loading="lazy" class="img-cover">
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </div>
+     </section>
+  </article>
+</main>
+
+<!-- footer -->
+<footer data-aos="fade-up" class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <img src="./images/white-home.png" width="50"  height="30" alt="estate-house">
+          <span>WealthHome</span>
+        </a>
+        <p class="body-medium footer-text">
+          A home that illuminates the true beauty of your surroundings giving you and your family an exciting lodge that improves your taste of belonging to an important social development building.
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-labelledby="nav-label-1">
+        <p class="title-small footer-list-title" id="nav-label-1">Quick Link</p>
+
+        <ul class="footer-list">
+          <li><a href="#" class="body-medium footer-link">Home</a></li>
+          <li><a href="#" class="body-medium footer-link">Buy</a></li>
+          <li><a href="#" class="body-medium footer-link">Sell</a></li>
+          <li><a href="#" class="body-medium footer-link">Rent</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav" aria-labelledby="nav-label-2">
+        <p class="title-small footer-list-title" id="nav-label-2">Support</p>
+
+        <ul class="footer-list">
+          <li><a href="#" class="body-medium footer-link">About Us</a></li>
+          <li><a href="#" class="body-medium footer-link">Contact Us</a></li>
+          <li><a href="#" class="body-medium footer-link">Privacy Policy</a></li>
+          <li><a href="#" class="body-medium footer-link">Terms and Conditions</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav" aria-labelledby="nav-label-3">
+        <p class="title-small footer-list-title" id="nav-label-1">Get In Touch</p>
+
+        <ul class="footer-list">
+          <li>
+            <a href="#" class="body-medium footer-link">hello@wealthhome.com</a>
+          </li>
+          <li>
+            <address href="#" class="body-medium footer-link"></address>
+          </li>
+          <li>
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link" class="facebook">
+                  <img src="./images/icons8-facebook-48.png" alt="facebook">
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-link">
+                  <img src="./images/twitter.png" alt="twitter">
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-link">
+                  <img src="./images/icons8-instagram.svg" alt="instagram">
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div data-aos="zoom-in-left" class="footer-bottom">
+    <div class="container">
+      <p class="copyright body-medium">
+        Copyright 2025 codewithElojiDominic
+      </p>
+    </div>
+  </div>
+ </footer>
+
+<script src="./real-estate.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    double: true
+  });
+</script>
+<!-- box-icons -->
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
